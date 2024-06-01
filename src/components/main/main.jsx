@@ -15,13 +15,12 @@ export const Main = () => {
   }, [dispatch]);
   const allTest = useSelector((state) => state.test.test);
   const [isModal, setIsModal] = useState(false);
+  const [value, setValue] = useState("");
+  const [isEdit, setIsEdit] = useState(false);
 
   const onOpenModal = () => {
     setIsModal(!isModal);
   };
-
-  const [value, setValue] = useState("");
-  const [isEdit, setIsEdit] = useState(false);
 
   const onClickInput = (e) => {
     e.preventDefault();
