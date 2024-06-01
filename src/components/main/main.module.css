@@ -1,0 +1,35 @@
+.main {
+  padding: 40px 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.btnOpen {
+  width: 200px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 1px solid gray;
+}
+
+.edit {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnEdit {
+  padding: 10px;
+  border: 1px solid blue;
+}

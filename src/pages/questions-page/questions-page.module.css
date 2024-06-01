@@ -1,0 +1,43 @@
+.title {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.btnAnswer {
+  padding: 20px;
+  background-color: blue;
+  color: aliceblue;
+}
+
+.btnAnswer:disabled {
+  background: gray;
+}
+
+.rigthAnswer {
+  background: rgb(19, 228, 37);
+}
+
+.failAnswer {
+  background: red;
+}
+
+.btnAddQuestion {
+  width: 300px;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid gray;
+}
+
+.imgQuestion {
+  width: 300px;
+  height: 300px;
+}
