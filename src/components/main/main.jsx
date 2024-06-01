@@ -23,10 +23,6 @@ export const Main = () => {
   const [value, setValue] = useState("");
   const [isEdit, setIsEdit] = useState(false);
 
-  const onHandleChange = (e) => {
-    e.preventDefault();
-  };
-
   const onClickInput = (e) => {
     e.preventDefault();
   };
